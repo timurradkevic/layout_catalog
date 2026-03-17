@@ -38,22 +38,22 @@
   &:hover {
     color: $link-color;
   }
-}
+  &.is-active {
+    color: $link-color;
 
-.is-active {
-  color: $link-color;
-
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 4px;
-    background-color: $link-color;
-    border-radius: 2px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 4px;
+      background-color: $link-color;
+      border-radius: 2px;
+    }
   }
 }
+
 
 .logo {
   display: block;

@@ -3,7 +3,7 @@
 
   display: grid;
   grid-template-columns: repeat(var(--column-count), 200px);
-  gap: 48px 46px;
+  gap: 46px 48px;
   padding: 50px 40px;
   justify-content: center;
 }
@@ -30,7 +30,7 @@
   box-sizing: border-box;
   width: 200px;
   height: 408px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
   border-width: 1px;
   padding: 32px 16px 16px;
@@ -40,7 +40,7 @@
     transform: scale(1.2);
 
     &__name {
-      color: #34568b;
+      color: $name-hover-color;
     }
   }
 
