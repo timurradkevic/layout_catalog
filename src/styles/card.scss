@@ -32,7 +32,6 @@
   height: 408px;
   border: 1px solid $border-color;
   border-radius: 5px;
-  border-width: 1px;
   padding: 32px 16px 16px;
   transition: all 0.3s;
 
@@ -127,7 +126,7 @@
     text-align: center;
     text-transform: uppercase;
     background-color: $main-button-color;
-    color: #fff;
+    color: $white-color;
     margin-top: 16px;
     justify-content: center;
     align-items: center;
@@ -139,7 +138,7 @@
     transition: all 0.3s;
     &:hover {
       color: $main-button-color;
-      background-color: #fff;
+      background-color: $white-color;
     }
   }
 }
